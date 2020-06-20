@@ -3,18 +3,18 @@ services:
   apache:
     container_name: apache
     build: docker/apache
-#    volumes:
-#      - ./nginx_log:/var/log/nginx
+    volumes:
+      - ./docker/apache/logs:/etc/httpd/logs
     tty: true
     privileged: true
     ports:
       - 80:80
-#    depends_on:
-#      - springboot
-#
-#  springboot:
-#    container_name: springboot
-#    build: docker/springboot
-#    tty: true
-#    ports:
-#      - 8090:8080
+    depends_on:
+      - springboot
+
+  springboot:
+    container_name: springboot
+    build: docker/springboot
+    tty: true
+    ports:
+      - 8090:8080
