@@ -1,0 +1,78 @@
+[Sat Jun 20 12:29:31.766998 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jun 20 12:29:31.780057 2020] [so:warn] [pid 1] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 12:29:31.786615 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Sat Jun 20 12:29:31.789188 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Jun 20 12:29:31.790815 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jun 20 12:40:11.185695 2020] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sat Jun 20 12:40:20.332880 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jun 20 12:40:20.343160 2020] [so:warn] [pid 1] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 12:40:20.354261 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Sat Jun 20 12:40:20.359448 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Jun 20 12:40:20.360241 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jun 20 12:45:58.662342 2020] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sat Jun 20 12:46:16.106018 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jun 20 12:46:16.120002 2020] [so:warn] [pid 1] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.28.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 12:46:16.126280 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Sat Jun 20 12:46:16.129215 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Jun 20 12:46:16.129665 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jun 20 12:48:31.995923 2020] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sat Jun 20 12:48:48.843170 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jun 20 12:48:48.854502 2020] [so:warn] [pid 1] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.29.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 12:48:48.861740 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Sat Jun 20 12:48:48.864468 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Jun 20 12:48:48.864860 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jun 20 12:48:51.535158 2020] [proxy:error] [pid 9] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.29.0.2:8080 (springboot) failed
+[Sat Jun 20 12:48:51.535667 2020] [proxy:error] [pid 9] AH00959: ap_proxy_connect_backend disabling worker for (springboot) for 60s
+[Sat Jun 20 12:48:51.536101 2020] [proxy_http:error] [pid 9] [client 172.29.0.1:34780] AH01114: HTTP: failed to make connection to backend: springboot
+[Sat Jun 20 12:49:19.747152 2020] [proxy:error] [pid 9] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:49:31.026126 2020] [proxy:error] [pid 9] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:49:34.376314 2020] [proxy:error] [pid 9] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:54:42.524197 2020] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sat Jun 20 12:54:59.802424 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jun 20 12:54:59.812630 2020] [so:warn] [pid 1] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.30.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 12:54:59.820359 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Sat Jun 20 12:54:59.822719 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Jun 20 12:54:59.823161 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jun 20 12:55:03.801376 2020] [proxy:error] [pid 8] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.30.0.2:8080 (springboot) failed
+[Sat Jun 20 12:55:03.801848 2020] [proxy:error] [pid 8] AH00959: ap_proxy_connect_backend disabling worker for (springboot) for 60s
+[Sat Jun 20 12:55:03.802230 2020] [proxy_http:error] [pid 8] [client 172.30.0.1:50156] AH01114: HTTP: failed to make connection to backend: springboot
+[Sat Jun 20 12:55:04.982331 2020] [proxy:error] [pid 9] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.30.0.2:8080 (springboot) failed
+[Sat Jun 20 12:55:04.982879 2020] [proxy:error] [pid 9] AH00959: ap_proxy_connect_backend disabling worker for (springboot) for 60s
+[Sat Jun 20 12:55:04.983329 2020] [proxy_http:error] [pid 9] [client 172.30.0.1:50160] AH01114: HTTP: failed to make connection to backend: springboot
+[Sat Jun 20 12:55:05.756821 2020] [proxy:error] [pid 10] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.30.0.2:8080 (springboot) failed
+[Sat Jun 20 12:55:05.757486 2020] [proxy:error] [pid 10] AH00959: ap_proxy_connect_backend disabling worker for (springboot) for 60s
+[Sat Jun 20 12:55:05.758038 2020] [proxy_http:error] [pid 10] [client 172.30.0.1:50164] AH01114: HTTP: failed to make connection to backend: springboot
+[Sat Jun 20 12:55:07.782948 2020] [proxy:error] [pid 11] (111)Connection refused: AH00957: HTTP: attempt to connect to 172.30.0.2:8080 (springboot) failed
+[Sat Jun 20 12:55:07.783457 2020] [proxy:error] [pid 11] AH00959: ap_proxy_connect_backend disabling worker for (springboot) for 60s
+[Sat Jun 20 12:55:07.783891 2020] [proxy_http:error] [pid 11] [client 172.30.0.1:50168] AH01114: HTTP: failed to make connection to backend: springboot
+[Sat Jun 20 12:55:10.794173 2020] [proxy:error] [pid 8] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:12.369525 2020] [proxy:error] [pid 9] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:14.506378 2020] [proxy:error] [pid 10] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:15.322045 2020] [proxy:error] [pid 11] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:16.644159 2020] [proxy:error] [pid 8] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:40.559061 2020] [proxy:error] [pid 9] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:41.999047 2020] [proxy:error] [pid 10] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:54.540102 2020] [proxy:error] [pid 11] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:58.908266 2020] [proxy:error] [pid 8] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:55:59.685449 2020] [proxy:error] [pid 9] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:56:02.795124 2020] [proxy:error] [pid 10] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:56:07.137710 2020] [proxy:error] [pid 11] AH00940: HTTP: disabled connection for (springboot)
+[Sat Jun 20 12:59:39.071005 2020] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sat Jun 20 13:00:00.376051 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jun 20 13:00:00.389811 2020] [so:warn] [pid 1] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.31.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 13:00:00.397340 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Sat Jun 20 13:00:00.401482 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Jun 20 13:00:00.401940 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jun 20 13:08:01.074186 2020] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sat Jun 20 13:08:18.870847 2020] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jun 20 13:08:18.885187 2020] [so:warn] [pid 1] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 13:08:18.892079 2020] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Sat Jun 20 13:08:18.894705 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Sat Jun 20 13:08:18.895086 2020] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
