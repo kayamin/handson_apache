@@ -34,13 +34,13 @@ Passing arguments to httpd using apachectl is no longer supported.
 You can only start/stop/restart httpd using this script.
 If you want to pass extra arguments to httpd, edit the
 /etc/sysconfig/httpd config file.
-[Sat Jun 20 13:00:17.024266 2020] [so:warn] [pid 31] AH01574: module rewrite_module is already loaded, skipping
-AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.31.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 20 13:14:01.369669 2020] [so:warn] [pid 31] AH01574: module rewrite_module is already loaded, skipping
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.0.3. Set the 'ServerName' directive globally to suppress this message
 VirtualHost configuration:
 *:80                   is a NameVirtualHost
-         default server ash.com (/etc/httpd/conf/httpd.conf:360)
-         port 80 namevhost ash.com (/etc/httpd/conf/httpd.conf:360)
-         port 80 namevhost test.com (/etc/httpd/conf/httpd.conf:365)
+         default server test.com (/etc/httpd/conf/httpd.conf:361)
+         port 80 namevhost test.com (/etc/httpd/conf/httpd.conf:361)
+         port 80 namevhost spring.vhost.com (/etc/httpd/conf/httpd.conf:366)
 ```
 
 VirtualHost に設定されているホスト名を指定しないと，springboot コンテナにプロキシされないことを確認
